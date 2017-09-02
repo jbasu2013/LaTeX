@@ -1,0 +1,30 @@
+\documentclass{article}
+\title{special Characters}
+\begin{document}
+
+A Table in \LaTeX should has a command \\
+\newline
+{\textbackslash}begin\{table\}\\
+...\\
+{\textbackslash}end\{table\}\\
+
+and
+
+Number of column specified by bar   and row values should be separated by $\&$ symbol.
+
+Below is given command for 4 row and two column table. 
+
+\begin{table}[ht]
+    \caption{\label{tbl:spo}Performances of stationary predictors grouped by model order}
+    \centering
+    \begin{tabular}{ll}
+	S.No & Value \\
+	1 & 36207  \\
+	2 & 42572  \\ 
+	3 & 36686  \\
+	4 & 43132  \\
+    \end{tabular}
+\end{table}
+
+
+\end{document}
